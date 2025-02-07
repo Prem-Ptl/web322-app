@@ -1,0 +1,302 @@
+[
+    {
+       "id":1,
+       "category":"Home, Garden",
+       "postDate":"2023-05-14",
+       "featureImage":"https://source.unsplash.com/200x200/?lawnmower",
+       "price":9.99,
+       "title":"Lawnmower",
+       "body":"A powerful lawnmower that makes cutting grass easy and efficient. Designed for small to medium lawns, this tool ensures a neat and tidy garden.",
+       "published":true
+    },
+    {
+       "id":2,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-05-15",
+       "featureImage":"https://source.unsplash.com/200x200/?bbq",
+       "price":19.99,
+       "title":"Weber BBQ",
+       "body":"Grill your favorite foods with the Weber BBQ, offering even heat distribution and a durable design to ensure a great cookout every time.",
+       "published":true
+    },
+    {
+       "id":3,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-05-16",
+       "featureImage":"https://source.unsplash.com/200x200/?ps5",
+       "price":439.99,
+       "title":"PS5",
+       "body":"Experience next-gen gaming with the PlayStation 5. With ultra-fast load times and stunning visuals, it's the ultimate gaming console.",
+       "published":true
+    },
+    {
+       "id":4,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-05-17",
+       "featureImage":"https://source.unsplash.com/200x200/?xbox",
+       "price":459.99,
+       "title":"XBOX",
+       "body":"Play your favorite games in stunning 4K resolution with the Xbox Series X. Enjoy fast loading and an amazing gaming experience.",
+       "published":true
+    },
+    {
+       "id":5,
+       "category":"Clothing",
+       "postDate":"2023-05-18",
+       "featureImage":"https://source.unsplash.com/200x200/?tshirt",
+       "price":39.99,
+       "title":"T-Shirt",
+       "body":"A soft and comfortable cotton t-shirt available in multiple colors. Perfect for casual wear or layering for all seasons.",
+       "published":true
+    },
+    {
+       "id":6,
+       "category":"Clothing",
+       "postDate":"2023-05-19",
+       "featureImage":"https://source.unsplash.com/200x200/?shorts",
+       "price":29.99,
+       "title":"Shorts",
+       "body":"Stylish and breathable shorts ideal for summer days. Made from comfortable fabric, these shorts offer a perfect fit for any casual occasion.",
+       "published":true
+    },
+    {
+       "id":7,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-05-20",
+       "featureImage":"https://source.unsplash.com/200x200/?baseball",
+       "price":19.99,
+       "title":"Baseball",
+       "body":"Get ready for the game with this high-quality baseball. Whether you're playing or collecting, this ball offers durability and precision.",
+       "published":true
+    },
+    {
+       "id":8,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-05-21",
+       "featureImage":"https://source.unsplash.com/200x200/?soccerball",
+       "price":99.99,
+       "title":"Soccer Ball",
+       "body":"Perfect for practice or a friendly game, this high-quality soccer ball is designed for optimal grip and control on any surface.",
+       "published":true
+    },
+    {
+       "id":9,
+       "category":"Pets",
+       "postDate":"2023-05-16",
+       "featureImage":"https://source.unsplash.com/200x200/?dogfood",
+       "price":99.99,
+       "title":"Dog Food",
+       "body":"Nutritious and delicious, this dog food offers a balanced diet for your pet with high-quality ingredients to keep them healthy.",
+       "published":true
+    },
+    {
+       "id":10,
+       "category":"Pets",
+       "postDate":"2023-05-16",
+       "featureImage":"https://source.unsplash.com/200x200/?fishfood",
+       "price":9.99,
+       "title":"Fish Food",
+       "body":"High-quality fish food designed to promote vibrant colors and healthy growth in your aquarium fish.",
+       "published":true
+    },
+    {
+       "id":11,
+       "category":"Home, Garden",
+       "postDate":"2023-06-01",
+       "featureImage":"https://source.unsplash.com/200x200/?rake",
+       "price":25.99,
+       "title":"Garden Rake",
+       "body":"A durable garden rake designed for quick and efficient leaf raking and soil cultivation, making your gardening tasks easier.",
+       "published":true
+    },
+    {
+       "id":12,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-06-02",
+       "featureImage":"https://source.unsplash.com/200x200/?laptop",
+       "price":499.99,
+       "title":"Laptop",
+       "body":"A powerful laptop designed for work and play. Featuring fast processing speeds and long battery life, perfect for productivity and entertainment.",
+       "published":true
+    },
+    {
+       "id":13,
+       "category":"Clothing",
+       "postDate":"2023-06-03",
+       "featureImage":"https://source.unsplash.com/200x200/?hoodie",
+       "price":59.99,
+       "title":"Hoodie",
+       "body":"Cozy and stylish, this hoodie is perfect for those chilly days. Made from soft, high-quality fabric to keep you warm and comfortable.",
+       "published":true
+    },
+    {
+       "id":14,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-06-04",
+       "featureImage":"https://source.unsplash.com/200x200/?tent",
+       "price":199.99,
+       "title":"Camping Tent",
+       "body":"A spacious and durable camping tent, designed to withstand various weather conditions. Ideal for outdoor adventures and family camping trips.",
+       "published":true
+    },
+    {
+       "id":15,
+       "category":"Pets",
+       "postDate":"2023-06-05",
+       "featureImage":"https://source.unsplash.com/200x200/?catfood",
+       "price":14.99,
+       "title":"Cat Food",
+       "body":"This premium cat food provides a balanced diet to support your cat's health, with tasty flavors they will love.",
+       "published":true
+    },
+    {
+       "id":16,
+       "category":"Home, Garden",
+       "postDate":"2023-06-06",
+       "featureImage":"https://source.unsplash.com/200x200/?gardenhose",
+       "price":49.99,
+       "title":"Garden Hose",
+       "body":"A high-quality, kink-resistant garden hose that provides a steady water flow for watering your garden and lawn.",
+       "published":true
+    },
+    {
+       "id":17,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-06-07",
+       "featureImage":"https://source.unsplash.com/200x200/?headphones",
+       "price":79.99,
+       "title":"Wireless Headphones",
+       "body":"Enjoy your music without the wires! These wireless headphones offer superior sound quality and a comfortable fit for all-day use.",
+       "published":true
+    },
+    {
+       "id":18,
+       "category":"Clothing",
+       "postDate":"2023-06-08",
+       "featureImage":"https://source.unsplash.com/200x200/?jeans",
+       "price":49.99,
+       "title":"Jeans",
+       "body":"Comfortable and durable jeans for all occasions. Available in different fits and colors to suit your personal style.",
+       "published":true
+    },
+    {
+       "id":19,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-06-09",
+       "featureImage":"https://source.unsplash.com/200x200/?yoga",
+       "price":29.99,
+       "title":"Yoga Mat",
+       "body":"A non-slip yoga mat for a comfortable workout experience. Perfect for yoga, Pilates, or home fitness routines.",
+       "published":true
+    },
+    {
+       "id":20,
+       "category":"Pets",
+       "postDate":"2023-06-10",
+       "featureImage":"https://source.unsplash.com/200x200/?pettoy",
+       "price":19.99,
+       "title":"Pet Toy",
+       "body":"A fun and interactive toy for your pet to enjoy. Ideal for both dogs and cats, providing hours of entertainment.",
+       "published":true
+    },
+    {
+       "id":21,
+       "category":"Home, Garden",
+       "postDate":"2023-06-11",
+       "featureImage":"https://source.unsplash.com/200x200/?wheelbarrow",
+       "price":99.99,
+       "title":"Wheelbarrow",
+       "body":"This sturdy wheelbarrow helps you move heavy items with ease around your garden or yard.",
+       "published":true
+    },
+    {
+       "id":22,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-06-12",
+       "featureImage":"https://source.unsplash.com/200x200/?smartphone",
+       "price":399.99,
+       "title":"Smartphone",
+       "body":"A top-of-the-line smartphone with a stunning display, fast processor, and long battery life, perfect for staying connected and productive.",
+       "published":true
+    },
+    {
+       "id":23,
+       "category":"Clothing",
+       "postDate":"2023-06-13",
+       "featureImage":"https://source.unsplash.com/200x200/?jacket",
+       "price":69.99,
+       "title":"Jacket",
+       "body":"A stylish jacket that will keep you warm during the colder months. Crafted from high-quality materials for durability and comfort.",
+       "published":true
+    },
+    {
+       "id":24,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-06-14",
+       "featureImage":"https://source.unsplash.com/200x200/?surfboard",
+       "price":299.99,
+       "title":"Surfboard",
+       "body":"A lightweight and durable surfboard, perfect for hitting the waves. Designed for easy handling and performance.",
+       "published":true
+    },
+    {
+       "id":25,
+       "category":"Pets",
+       "postDate":"2023-06-15",
+       "featureImage":"https://source.unsplash.com/200x200/?birdcage",
+       "price":39.99,
+       "title":"Bird Cage",
+       "body":"A spacious and secure bird cage for your feathered friends. Features multiple levels and accessories for a comfortable living space.",
+       "published":true
+    },
+    {
+       "id":26,
+       "category":"Home, Garden",
+       "postDate":"2023-06-16",
+       "featureImage":"https://source.unsplash.com/200x200/?bbqgrill",
+       "price":99.99,
+       "title":"BBQ Grill",
+       "body":"Host the perfect BBQ with this reliable grill. Ideal for family gatherings, featuring an easy-to-clean surface and ample cooking space.",
+       "published":true
+    },
+    {
+       "id":27,
+       "category":"Electronics, Computers, Video Games",
+       "postDate":"2023-06-17",
+       "featureImage":"https://source.unsplash.com/200x200/?tablet",
+       "price":199.99,
+       "title":"Tablet",
+       "body":"A versatile tablet for work, play, or browsing. With its sleek design and responsive touch screen, it's perfect for everyday use.",
+       "published":true
+    },
+    {
+       "id":28,
+       "category":"Clothing",
+       "postDate":"2023-06-18",
+       "featureImage":"https://source.unsplash.com/200x200/?sneakers",
+       "price":79.99,
+       "title":"Sneakers",
+       "body":"Stylish and comfortable sneakers for daily wear. Designed for both comfort and performance, making them perfect for your active lifestyle.",
+       "published":true
+    },
+    {
+       "id":29,
+       "category":"Sports & Outdoors",
+       "postDate":"2023-06-19",
+       "featureImage":"https://source.unsplash.com/200x200/?bicycle",
+       "price":299.99,
+       "title":"Bicycle",
+       "body":"A durable and lightweight bicycle for outdoor adventures. With smooth gear shifting and sturdy wheels, it's perfect for any terrain.",
+       "published":true
+    },
+    {
+       "id":30,
+       "category":"Pets",
+       "postDate":"2023-06-20",
+       "featureImage":"https://source.unsplash.com/200x200/?dogbed",
+       "price":49.99,
+       "title":"Dog Bed",
+       "body":"A comfortable and supportive dog bed that ensures your furry friend gets a restful night's sleep.",
+       "published":true
+    }
+]

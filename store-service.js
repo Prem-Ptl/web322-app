@@ -12,7 +12,12 @@ function initialize() {
                 console.error("Error reading categories.json:", err);
                 categories = [];
             } else {
-                categories = JSON.parse(data);
+                try {
+                    categories = JSON.parse(data);
+                } catch (error) {
+                    console.error("Invalid JSON format in categories.json:", error);
+                    categories = [];
+                }
             }
 
             fs.readFile(path.join(__dirname, "data", "items.json"), "utf8", (err, data) => {
@@ -20,7 +25,12 @@ function initialize() {
                     console.error("Error reading items.json:", err);
                     items = [];
                 } else {
-                    items = JSON.parse(data);
+                    try {
+                        items = JSON.parse(data);
+                    } catch (error) {
+                        console.error("Invalid JSON format in items.json:", error);
+                        items = [];
+                    }
                 }
                 resolve();
             });
@@ -58,7 +68,7 @@ function addItem(itemData) {
             return;
         }
 
-        itemData.published = itemData.published ? true : false;
+        itemData.published = itemData.published === "on"; // Ensure Boolean value
         itemData.id = items.length > 0 ? Math.max(...items.map(item => item.id)) + 1 : 1;
 
         // Add the new item
@@ -86,10 +96,16 @@ function addItem(itemData) {
 // Get Items by Category
 function getItemsByCategory(category) {
     return new Promise((resolve, reject) => {
-        const filteredItems = items.filter(item => item.category == category);
-        filteredItems.length > 0 ? resolve(filteredItems) : reject(`No items found in category ${category}`);
+        console.log("Filtering category:", category);
+
+        const filteredItems = items.filter(item => Number(item.category) === Number(category));
+        
+        console.log("Found items:", filteredItems);
+
+        filteredItems.length > 0 ? resolve(filteredItems) : reject("No items found in this category");
     });
 }
+
 
 // Get Items by Minimum Date
 function getItemsByMinDate(minDateStr) {

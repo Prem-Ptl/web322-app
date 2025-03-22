@@ -1,0 +1,39 @@
+<h2>Shop</h2>
+
+{{#if item}} 
+    {{!-- If a single item is passed, show item details --}}
+    <div class="card">
+        <img src="{{item.featureImage}}" class="card-img-top" alt="{{item.name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{item.name}}</h5>
+            <p><strong>Description:</strong> {{item.description}}</p>
+            <p><strong>Category:</strong> {{item.category}}</p>
+            <p><strong>Post Date:</strong> {{formatDate item.postDate}}</p>
+            <a href="/shop" class="btn btn-secondary">Back to Shop</a>
+        </div>
+    </div>
+
+{{else}} 
+    {{!-- Otherwise, show all published items --}}
+    {{#if items.length}}
+    <div class="row">
+        {{#each items}}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{this.featureImage}}" class="card-img-top" alt="{{this.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <p class="card-text">{{this.body}}</p>
+                    <p class="card-text"><strong>Category:</strong> {{this.category}}</p>
+                    <p class="card-text"><strong>Price:</strong> {{this.price}}</p>
+                    <p class="card-text"><strong>Post Date:</strong> {{formatDate this.postDate}}</p>
+                    <a href="/shop/{{this.id}}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{else}}
+    <p>No items available.</p>
+    {{/if}}
+{{/if}}
